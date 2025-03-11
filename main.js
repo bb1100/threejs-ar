@@ -4,7 +4,7 @@
 // npm install --save-dev vite
 // npx vite
 
-import * as THREE from 'three';
+import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.174.0/build/three.module.js';
 import { VRButton } from 'three/addons/webxr/VRButton.js';
 
 const scene = new THREE.Scene();

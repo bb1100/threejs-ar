@@ -2,8 +2,9 @@
 // Make a scene https://threejs.org/docs/#manual/en/introduction/Creating-a-scene
 // npm install --save three
 // npm install --save-dev vite
-// npx vite
-//  glitch.com/intro-to-webxr
+// to run locally npx vite
+// before deploying npx vite build
+// glitch.com/intro-to-webxr
 
 import * as THREE from 'three';
 import { ARButton } from 'three/addons/webxr/ARButton.js';

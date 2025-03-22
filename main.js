@@ -44,7 +44,7 @@ function setLighting(){
 
         var envMap = pmremGenerator.fromEquirectangular( texture ).texture;
 
-        scene.background = envMap;
+        // scene.background = envMap;
         scene.environment = envMap;
 
         texture.dispose();

@@ -11,7 +11,7 @@ import { ARButton } from 'three/addons/webxr/ARButton.js';
 import { XRControllerModelFactory } from 'three/addons/webxr/XRControllerModelFactory.js';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 import { DRACOLoader } from 'three/addons/loaders/DRACOLoader.js';
-import {RGBELoader} from "three/examples/jsm/loaders/RGBELoader";
+import { RGBELoader } from 'three/addons/loaders/RGBELoader.js';
 
 
 const scene = new THREE.Scene();
